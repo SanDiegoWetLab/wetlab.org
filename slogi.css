@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+body{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style: oblique;
+	font-weight: lighter;
+	font-variant: normal;
+	overflow-y:scroll;
+	background-image: url(images/BG.jpg);
+}
+
+#GlavniOkvir{
+	padding-top:20px;
+	width:1024px;
+	background-color:#C6E7CE;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+
+#Glava{
+	width: 1024px;
+	height: 220px;
+	margin: 0 auto;
+	background-color: #C6E7CE;
+	background-image: url(images/header.png);
+	background-size: 1024px auto;
+	background-position: 0% -80%;
+}
+
+#Navigacija{
+	width:1024px;
+	margin-top:10px;
+	height:50px;
+	background-color:#000;
+}
+
+#Navigacija ul li {
+	display: inline;
+	left: auto;
+	right: auto;
+	margin-right: 2px;
+	box-shadow: 1px 1px 8px -3px;	
+	background-color:#D6EDDB;
+}
+
+#Navigacija ul {
+	padding-left:35px;
+	position: absolute;
+	text-decoration: none;
+	margin-top: 15px;
+	background-color: #000;
+}
+
+ul li a {
+	font-family: josefin-sans;
+	font-style: normal;
+	font-weight: 700;
+	color: #000000;
+	text-decoration: none;
+	margin-left: 4px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#Navigacija a:hover{
+	color: #888888;
+	font-weight:600;
+}
+#Vsebina{
+	background-color:#D6EDDB;
+	width:1024px;
+	height:100%;
+	margin-top:-9px;
+}
+
+
+h4{
+	text-align: center;
+	font-style: oblique;
+}
+p{
+	text-align:center;
+	margin: 25px;
+}
+
+h1{
+	padding-top: 15px;
+	text-align: center;
+	font-weight: 900;
+	font-style: oblique;
+	bnfont-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	text-transform: uppercase;
+	color: #030;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #060;
+	border-right-color: #060;
+	border-bottom-color: #060;
+	border-left-color: #060;
+}
+
+#underline{
+	text-decoration:underline;
+}
+h5{
+	text-align:center;
+}
+
+#center{
+	text-align:center;
+}
+
+
+#donate ul li {
+	display: inline;
+	margin-left: 425px;
+	box-shadow: 1px 1px 8px -3px;	
+}
+
+#membership ul li {
+	display: inline;
+	margin-left: 410px;
+	box-shadow: 1px 1px 8px -3px;	
+}
+
+#Noga{
+	margin-top:10px;
+	text-align:center;
+	width:1024px;
+	height:25px;
+	background-color:#000;
+	position:absolute;
+	color: #FFF;
+	
+}
+#plus img{
+	display:block;
+	margin:0 auto;
+	float:left;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+img{
+	padding-top:15px;
+	display:block;
+	margin: 0 auto;
+}
+.hc{
+	text-align:center;
+	text-decoration:underline;
+}
+
+#faq{
+	text-align:left;
+}
+
+#tabela{
+	
+	display:block;
+	float:left;
+	margin:15px;
+}
+table{
+	margin-bottom:10px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
